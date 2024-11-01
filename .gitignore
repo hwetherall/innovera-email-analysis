@@ -1,0 +1,26 @@
+# Create .gitignore first
+echo "# Sensitive files
+credentials.json
+token.json
+
+# Database files
+*.db
+
+# Output files
+*.csv
+*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo" > .gitignore
