@@ -23,4 +23,7 @@ ENV/
 .idea/
 .vscode/
 *.swp
-*.swo" > .gitignore
+*.swo
+
+# Environment variables
+.env" > .gitignore
